@@ -1,0 +1,25 @@
+{
+    "name": "rainrock/framework",
+	"description": "这是一个简单的PHP框架。",
+    "type": "library",
+    "keywords": ["php", "phpframework", "rainrock"],
+    "license": "MIT",
+	"homepage":"http://www.rockoa.com/view_framework.html",
+    "autoload": {
+        "psr-4": {
+            "Rainrock\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "雨中磐石",
+            "email": "qqqq2900@126.com",
+			"homepage":"http://www.rockoa.com/"
+        }
+    ],
+    "require": {
+		"php": ">=5.4"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
